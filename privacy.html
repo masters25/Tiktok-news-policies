@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 1.8em; }
+  .updated { color: #666; font-size: 0.9em; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: [DATA]</p>
+
+  <p>
+    This Privacy Policy explains how <strong>[NOME DO APP]</strong> ("the App", "we") handles information
+    when you use it. The App is a personal automation tool that generates short news-summary videos and
+    publishes them to a single authorized TikTok account.
+  </p>
+
+  <h2>1. Information we access</h2>
+  <p>
+    When you connect your TikTok account to the App via TikTok's official Login Kit / OAuth 2.0 flow,
+    we request only the minimum permissions required to publish video content on your behalf
+    (the <code>video.publish</code> scope). We do not request access to your TikTok direct messages,
+    contacts, or any data unrelated to publishing content.
+  </p>
+
+  <h2>2. How we use information</h2>
+  <p>
+    The access token obtained through TikTok's OAuth flow is used exclusively to upload and publish
+    videos that the App generates automatically, to the same account that authorized the connection.
+    We do not use this access for any other purpose, and we do not access or process content from
+    any other TikTok account.
+  </p>
+
+  <h2>3. Data storage</h2>
+  <p>
+    OAuth access and refresh tokens are stored as encrypted secrets in a private GitHub repository's
+    secret store and are not accessible to anyone other than the App owner. We do not maintain a
+    separate database of user data.
+  </p>
+
+  <h2>4. Third-party services</h2>
+  <p>
+    To generate video content, the App sends publicly available news headlines to Google's Gemini API
+    (for script generation) and to Microsoft's text-to-speech service (for voice narration). These
+    services process only the generated news script text — never your TikTok account credentials or
+    personal data.
+  </p>
+
+  <h2>5. Data sharing</h2>
+  <p>
+    We do not sell, ren
